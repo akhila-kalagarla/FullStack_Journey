@@ -3,3 +3,8 @@ CSS (Cascading Style Sheets) is a stylesheet language used to design the webpage
 The reason for using this is to simplify the process of making web pages presentable. 
 It allows you to apply styles to web pages. More importantly, it enables you to do this independent of the HTML that makes up each web page.
 
+### Types of css
+There are three types of CSS which are given below:
+1)Inline CSS
+2)Internal or Embedded CSS
+3)External CSS
