@@ -3,8 +3,84 @@ CSS (Cascading Style Sheets) is a stylesheet language used to design the webpage
 The reason for using this is to simplify the process of making web pages presentable. 
 It allows you to apply styles to web pages. More importantly, it enables you to do this independent of the HTML that makes up each web page.
 
-### Types of css
+### Types of CSS
 There are three types of CSS which are given below:
 1)Inline CSS
 2)Internal or Embedded CSS
 3)External CSS
+
+# Inline CSS:
+Inline CSS contains the CSS property in the body section attached with element is known as inline CSS. 
+This kind of style is specified within an HTML tag using the style attribute.
+
+Example:
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Inline CSS</title>
+    </head>
+    <body>
+        <p style = "color:#009900; font-size:50px;
+                font-style:italic; text-align:center;">
+            GeeksForGeeks
+        </p>
+    </body>
+</html>
+
+# Internal or Embedded CSS:
+This can be used when a single HTML document must be styled uniquely. 
+The CSS rule set should be within the HTML file in the head section i.e the CSS is embedded within the HTML file.
+
+Example:  
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Internal CSS</title>
+        <style>
+            .main {
+                text-align:center; 
+            }
+            .GFG {
+                color:#009900;
+                font-size:50px;
+                font-weight:bold;
+            }
+            .geeks {
+                font-style:bold;
+                font-size:20px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class = "main">
+            <div class ="GFG">GeeksForGeeks</div>
+            
+            <div class ="geeks">
+                A computer science portal for geeks
+            </div>
+        </div>
+    </body>
+</html>
+
+# External CSS:
+External CSS contains separate CSS file which contains only style property with the help of tag attributes (For example class, id, heading, ... etc).
+CSS property written in a separate file with .css extension and should be linked to the HTML document using link tag. 
+This means that for each element, style can be set only once and that will be applied across web pages.
+
+Example: 
+The file given below contains CSS property. This file save with .css extension. For Ex: style.css  
+body {
+    background-color:powderblue;
+}
+.main {
+    text-align:center;   
+}
+.GFG {
+    color:#009900;
+    font-size:50px;
+    font-weight:bold;
+}
+#geeks {
+    font-style:bold;
+    font-size:20px;
+}
