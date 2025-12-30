@@ -12,7 +12,6 @@ There are three types of CSS which are given below:
 # Inline CSS:
 Inline CSS contains the CSS property in the body section attached with element is known as inline CSS. 
 This kind of style is specified within an HTML tag using the style attribute.
-
 Example:
 <!DOCTYPE html>
 <html>
@@ -30,7 +29,6 @@ Example:
 # Internal or Embedded CSS:
 This can be used when a single HTML document must be styled uniquely. 
 The CSS rule set should be within the HTML file in the head section i.e the CSS is embedded within the HTML file.
-
 Example:  
 <!DOCTYPE html>
 <html>
@@ -66,7 +64,6 @@ Example:
 External CSS contains separate CSS file which contains only style property with the help of tag attributes (For example class, id, heading, ... etc).
 CSS property written in a separate file with .css extension and should be linked to the HTML document using link tag. 
 This means that for each element, style can be set only once and that will be applied across web pages.
-
 Example: 
 The file given below contains CSS property. This file save with .css extension. For Ex: style.css  
 body {
